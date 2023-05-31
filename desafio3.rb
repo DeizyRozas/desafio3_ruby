@@ -2,16 +2,16 @@
 # calcular el nuevo salario de un colaborador/a en función de un porcentaje mínimo de
 # aumento establecido.
 
-# print "Ingresa tu salario:"
-# sueldo=gets.chomp.to_f
-# print "Ingresa el porcentaje de aumento :"
-# aumento= gets.chomp.to_f
+print "Ingresa tu salario:"
+sueldo=gets.chomp.to_f
+print "Ingresa el porcentaje de aumento :"
+aumento= gets.chomp.to_f
 
-# def calculo_nuevo_salario (salario,incremento)
-#     salario_incrementado= salario+(salario *(incremento/100))
-#     puts " El nuevo salario sera: #{salario_incrementado}"
-# end
-# calculo_nuevo_salario(sueldo, aumento)
+def calculo_nuevo_salario (salario,incremento)
+    salario_incrementado= salario+(salario *(incremento/100))
+    puts " El nuevo salario sera: #{salario_incrementado}"
+end
+calculo_nuevo_salario(sueldo, aumento)
 
 
 # Requerimiento 2, te solicitan un programa que simule el juego de “Adivina el
